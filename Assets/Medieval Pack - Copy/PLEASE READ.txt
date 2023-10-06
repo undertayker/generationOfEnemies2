@@ -1,0 +1,7 @@
+Hello, and thank you for choosing our pack!
+
+This asset pack was created in collaboration by Hannah Dolby and Matthew Jackson, second year Games Art students at Confetti Institue of Creative Technologies, a apart of Nottingham Trent University. We very much appreciate your intrerest in our work!
+
+This pack has the intended use to be assembled and used within Unity, or any other desired rigging and animating software. The modular limbs are ready to be imported into Unity, and the .psds to the designs are provided for reference of what the characters may look like at the end. You are free to modify the characters through colour changing or swapping parts out, but we please ask that we are given credit for our work.
+
+Thank you again for your use of our pack, and we hope it proves useful for your creative ideas!
