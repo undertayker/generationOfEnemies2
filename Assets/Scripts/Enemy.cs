@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private SpriteRenderer _renderer; 
     [SerializeField] private float _speed;
     private Rigidbody2D _rigidbody;
-    private int _direction;
+    private int _directionMove;
     private Transform _target;
  
     public void SetTarget(Transform target) =>  
@@ -25,14 +25,14 @@ public class Enemy : MonoBehaviour
         if (transform.position.x > _target.position.x)
         {
             _renderer.flipX = true;
-            _direction = -1;
+            _directionMove = -1;
         }
         else
         {
             _renderer.flipX= false;
-            _direction = 1;
+            _directionMove = 1;
         }
 
-        _rigidbody.velocity = new Vector2(_speed * _direction, _rigidbody.velocity.y); 
+        _rigidbody.velocity = new Vector2(_speed * _directionMove, _rigidbody.velocity.y); 
     }
 }
